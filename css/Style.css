@@ -1,0 +1,65 @@
+body{
+    background-color: #ccc;
+    color:#6E2639;
+    padding-top:3rem;
+}
+
+.container{
+  width:80vw;
+  margin: 50px auto;
+}
+
+/*Navigation Bar Customization */
+.navbar-custom {
+    background-color: #6E2639;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.7);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255,.7);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2500/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h1{
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 325%;
+    margin-bottom:50px;
+    text-align: center;   
+}
+
+h2{
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+    margin-bottom:25px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 175%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    margin-bottom:25px;
+}
+
+.gradeReportLabel{
+    text-align: left;
+}
